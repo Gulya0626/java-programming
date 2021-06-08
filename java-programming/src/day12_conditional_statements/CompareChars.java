@@ -1,0 +1,22 @@
+package day12_conditional_statements;
+
+public class CompareChars {
+    public static void main(String[] args) {
+        char letter1 = 'A'; //letter2 = 'J' you can print in one line.
+        char letter2 = 'J';
+        System.out.println(letter1 == letter2); //65 == 74 check if equal
+        System.out.println(letter1 > letter2); //65 > 74 check if A > B
+        System.out.println(letter2 > letter1); //74 > 65 check if B > A
+
+        char letter3 = 76;
+        char letter4 = 75;
+        System.out.println(letter3);
+        System.out.println(letter4);
+        System.out.println(letter3 == letter4);
+
+
+        char grade = 'E';
+        boolean pass = grade <= 'D';
+        System.out.println("Did you pass the exam? - " + pass);
+    }
+}
