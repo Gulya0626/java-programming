@@ -5,7 +5,7 @@ public class BooleanPractice {
         boolean isHungry = true;
         boolean isSleepy = false;
         boolean javaIsFun = true;
-        boolean isBreakTime = true;
+        boolean isBreakTime = false;
 
         System.out.println (isHungry);
         System.out.println (isSleepy);
