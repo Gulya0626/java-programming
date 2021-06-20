@@ -8,7 +8,7 @@ public class Person {
         char gender;
         //behaviour -> method
         public void speak() {
-            System.out.println("Person is speaking");
+            System.out.println(firstName + " is speaking");
         }
     }
 
